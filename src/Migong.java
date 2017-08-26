@@ -46,10 +46,10 @@ public class Migong {
                     mig[i][j]=sc.nextInt();
                 }
             }
-            findway(mig,n,m,sum);
+       //     findway(mig,n,m,sum);
         }
     }
-
+/*
     private static int[][] findway(int[][] mig, int n, int m, int sum) {
         int i=0,j=0;
         Stack<String> res=new Stack<>();
@@ -96,7 +96,6 @@ public class Migong {
             j=Integer.parseInt(temp[1]);
             visit[i][j]=1;
             res.push(i+""+j);
-            if(sum<0)
         }
-    }
+    }*/
 }
